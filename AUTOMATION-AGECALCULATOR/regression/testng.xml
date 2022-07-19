@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite123">
+  <test thread-count="5" name="Test123">
+    <classes>
+      
+      <class name="Testpack.TestNg2"/>
+      <class name="Testpack.TestNG"/>
+      <class name="Testpack.ClassTestNg"/>
+    </classes>
+  </test> <!-- Test123 -->
+</suite> <!-- Suite123 -->
+<test  name="MSedgeBrowser">
+  <parameter name="browserName" value="Edge"></parameter>
+    <classes>
+        <class name="Testpack2.TestNGCopy"/>
+      <class name="Testpack2.TestNG2Copy"/>
+    </classes>
+  </test> <!-- Test123 -->
